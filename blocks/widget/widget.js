@@ -77,4 +77,3 @@ export default async function decorate(widget) {
     console.error(`failed to load widget ${widgetPath}/${widgetName}`, error);
   }
 }
-

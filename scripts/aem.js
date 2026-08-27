@@ -689,4 +689,3 @@ export {
   waitForFirstImage,
   wrapTextNodes,
 };
-
