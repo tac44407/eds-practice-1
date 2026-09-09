@@ -7,7 +7,12 @@ function classifyEl(el) {
 }
 
 export default function decorate(block) {
-  const parts = { image: [], title: [], description: [], cta: [] };
+  const parts = {
+    image: [],
+    title: [],
+    description: [],
+    cta: [],
+  };
 
   [...block.querySelectorAll(':scope > div > div')].forEach((cell) => {
     const nodes = cell.children.length ? [...cell.children] : [cell];
