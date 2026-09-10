@@ -1,0 +1,6 @@
+sitemaps:
+  default:
+    origin: https://main--eds-practice-1--tac44407.aem.live
+    source: /query-index.json
+    destination: /sitemap.xml
+    lastmod: YYYY-MM-DD
