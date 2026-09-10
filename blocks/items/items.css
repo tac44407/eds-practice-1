@@ -55,17 +55,17 @@
   cursor: pointer;
 }
 
-.items .items-pagination button:hover:not(:disabled),
-.items .items-pagination button:focus-visible:not(:disabled) {
-  background-color: var(--link-hover-color);
-  border-color: var(--link-hover-color);
-}
-
 .items .items-pagination button:disabled {
   border-color: var(--light-color);
   background-color: var(--light-color);
   color: var(--dark-color);
   cursor: default;
+}
+
+.items .items-pagination button:hover:not(:disabled),
+.items .items-pagination button:focus-visible:not(:disabled) {
+  background-color: var(--link-hover-color);
+  border-color: var(--link-hover-color);
 }
 
 .items .items-pagination span {
